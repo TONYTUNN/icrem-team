@@ -1,0 +1,255 @@
+.container_cart1 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header_cart1 {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFDCCD;
+   
+}
+.logo_cart1 .img_cart1 img {
+    height: 96px;
+    width: 183px;
+}
+.menu_cart1 ul {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.menu_cart1 ul span {
+    padding:  0 20px;
+}
+.menu_cart1 ul span a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.icon_cart1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.icon_cart1 .icon_search i{
+    width: 50px;
+    height: 0;
+}
+.icon_cart1 .icon_search .fa-solid {
+    font-size: 20px;
+}
+.icon_user_thoat img{
+    width:30px;
+    height: 30px;
+}
+.icon_user_thoat .thoat a {
+    color: #000;
+    font: bold;
+    text-decoration: none;
+}
+.sup_banner_cart1 {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+    border-bottom: 2px solid #000;
+    margin-right: 30px;
+    padding: 10px 0;
+    position: relative;
+}
+.sup_banner_cart1 span {
+    padding: 0 20px;
+}
+/*  */
+.sup_container_cart1 {
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 110%;
+    margin-bottom: 50px;
+}
+
+.sup_container_cart1_left {
+    margin-left: 50px;
+    width: 55%;
+}
+.sup_l1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.sup_container_cart1_left {
+    border: 1px solid #000;
+}
+.sup_l2 {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin-left: 17px;
+}
+.img_sup_l2 img {
+    height: 136px;
+    width: 136px;
+    padding: 20px;
+}
+.btn_size_SL button {
+    border: none;
+}
+.active_TL1 {
+    margin-left: 5px;
+  
+    
+}
+.active_TL1 {
+    color: #D9A576;
+    border: 1px solid #D9A576;
+    margin-left: -15px;
+}
+.active_TL2 {
+    background-color: #A6495B;
+    color: #fff;
+}
+.TL_SL {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn_size_TL button{
+    border: none;
+    border-radius: 7px;
+}
+.SL {
+    margin-left: 10px;
+    text-align: center;
+}
+.TL {
+    text-align: center;
+}
+.name_sup_l2 {
+    margin-top: 15px;
+}
+.price_product_cart1 {
+    position: relative;
+    top: 30px;
+    right: 15px;
+}
+.icon_thanhtoan_car1 {
+    position: relative;
+    left: 50px;
+    top: -15px;
+}
+.img_sup_l3_v2 img {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.sup_l3_v2 {
+    display: flex;
+}
+.sup_l3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.sup_l3_v1 {
+    margin-top: 20px;
+}
+.sup_l3_v2 {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    
+}
+.name_sup_l3_v2 {
+    margin-top: 20px;
+}
+.btn_chonsp_l3_v2 {
+    margin-right: 30px;
+}
+.btn_chonsp_l3_v2 button {
+    border: 3px solid #A6495B;
+    color: #A6495B;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.sup_container_cart1_right {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #000;
+    /* margin-left: 20px; */
+    position: relative;
+    left: -185px;
+    top: 16px;
+}
+.price-content_cart1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.giamgia_cart1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.vanchuyen_cart1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.thanhtoan_cart1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.content_sup_cart1_rignt {
+    padding: 20px 0;
+}
+.btn-thanhtoan_cart1_right {
+    padding: 5px 55px;
+    margin-top: 15px;
+    border: none;
+    background-color: #A6495B;
+    color: #fff;
+    cursor: pointer;
+}
+.end_text_thanhtoan_cart1{
+    color: #A6495B;
+}
+.footer_cart1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2A2A2A;
+    color: #fff;
+    height: 350px;
+    text-align: center;
+    cursor: pointer;
+   position: relative;
+   top:170% ;
+   
+}
+.footer_cart1  h3 {
+    padding: 25px;
+}
+.icon_lk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.img_lk img {
+    height: 84px;
+
+}

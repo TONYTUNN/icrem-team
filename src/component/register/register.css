@@ -1,0 +1,103 @@
+.container_register {
+    background-color: rgba(0, 0,0,0.5);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.container_register_LR {
+    width: 80%;
+    height: 93%;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container_register_left {
+    width: 40%;
+    position: relative;
+    left: 26px;
+}
+.container_register_left .img_banner_register img {
+    width: 660px;
+    height: 690px;
+    object-fit: contain;
+}
+.container_register_right {
+    width: 40%;
+    background-color: #fff;
+    z-index: 111;
+    text-align: center;
+    position: relative;
+    right: 118px;
+}
+.container_register_right .img_logo_register img {
+    width: 144px;
+    height: 69px;
+}
+.icon_delete_register .fa-xmark{
+    position: relative;
+    right: -40%;
+    top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img_logo_register {
+    padding: 20px ;
+}
+.container_signin_register h3 {
+
+    padding: 10px;
+}
+.input_register {
+    padding: 20px;
+}
+.input_email input {
+    padding: 4px 40px;
+}
+.input_pass {
+    margin-top: 20px;
+}
+.input_pass input {
+    padding: 4px 40px;
+
+}
+.input_xnpass input {
+    padding: 4px 40px;
+}
+.input_xnpass {
+    margin-top: 20px;
+}
+.nhomk_quenmk {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.btn_register {
+    margin-top: 20px;
+}
+.quenmk a {
+    text-decoration: none;
+}
+.btn_xn {
+    padding: 4px 97px;
+    border: none;
+    background-color: #73262C;
+    color: #fff;
+}
+.btn_gg {
+    border: 1px solid #000;
+    padding: 0 22px;
+}
+.btn_gg img {
+    width: 39px;
+    height: 34px;
+    object-fit: contain;
+    
+}
+.doitrang_register a {
+    text-decoration: none;
+}
